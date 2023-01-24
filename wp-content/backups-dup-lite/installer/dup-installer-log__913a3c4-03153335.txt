@@ -1,0 +1,1409 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 11:03:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.3                                 |8.1.9
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.9 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "C:/OSPanel1/domains/test-local.ru"
+REQUEST URL_________: "http://test-local.ru"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/OSPanel1/domains/test-local.ru"
+URL_NEW_____________: "http://test-local.ru"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/OSPanel1/domains/test-local.ru/20221103_test_[HASH]_20221103153335_archive.zip"
+ARCHIVE SIZE________: 24.93MB
+CREATED_____________: 2022-11-03 15:33:35
+WP VERSION__________: 6.1
+DUP VERSION_________: 1.5.0
+LICENSE_____________: Free version
+DB VERSION__________: 8.0.29
+DB FILE SIZE________: 3.14MB
+DB TABLES___________: 13
+DB ROWS_____________: 233
+URL HOME____________: https://task.wptest.top
+URL CORE____________: https://task.wptest.top
+URL CONTENT_________: https://task.wptest.top/wp-content
+URL UPLOAD__________: https://task.wptest.top/wp-content/uploads
+URL PLUGINS_________: https://task.wptest.top/wp-content/plugins
+URL MU PLUGINS______: https://task.wptest.top/wp-content/mu-plugins
+URL THEMES__________: https://task.wptest.top/wp-content/themes
+PATH HOME___________: /var/www/task_wptest__usr/data/www/task.wptest.top
+PATH ABS____________: /var/www/task_wptest__usr/data/www/task.wptest.top
+PATH WPCONFIG_______: /var/www/task_wptest__usr/data/www/task.wptest.top
+PATH WPCONTENT______: /var/www/task_wptest__usr/data/www/task.wptest.top/wp-content
+PATH UPLOADS________: /var/www/task_wptest__usr/data/www/task.wptest.top/wp-content/uploads
+PATH PLUGINS________: /var/www/task_wptest__usr/data/www/task.wptest.top/wp-content/plugins
+PATH MUPLUGINS______: /var/www/task_wptest__usr/data/www/task.wptest.top/wp-content/mu-plugins
+PATH THEMES_________: /var/www/task_wptest__usr/data/www/task.wptest.top/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "task.wptest.top/"
+
+PLUGINS
+PLUGIN [SLUG:all-in-one-seo-pack/all_in_one_seo_pack.php       ][ON:true ]  All In One SEO Pack
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:cyr3lat/cyr-to-lat.php                            ][ON:true ]  Cyr to Lat enhanced
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+
+********************************************************************************
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.26123]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.14241]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+LOG-TIME[DELTA:   0.07381]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00021]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00390]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01605]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00083]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02602]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00280]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00176]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02322]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00132]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00430]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00120]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00171]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "settpm"
+NEW TEMPLATE:default
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.18927]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.15885]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+LOG-TIME[DELTA:   0.07372]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00372]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01579]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02578]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00265]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00178]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05782]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00141]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00281]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00156]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 11:05:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Тестовый сайт"
+HOME URL NEW________: "http://test-local.ru"
+SITE URL NEW________: "http://test-local.ru/"
+CONTENT URL NEW_____: "http://test-local.ru/wp-content"
+UPLOAD URL NEW______: "http://test-local.ru/wp-content/uploads"
+PLUGINS URL NEW_____: "http://test-local.ru/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://test-local.ru/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/OSPanel1/domains/test-local.ru"
+SITE PATH NEW_______: "C:/OSPanel1/domains/test-local.ru/"
+CONTENT PATH NEW____: "C:/OSPanel1/domains/test-local.ru/wp-content"
+UPLOAD PATH NEW_____: "C:/OSPanel1/domains/test-local.ru/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/OSPanel1/domains/test-local.ru/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/OSPanel1/domains/test-local.ru/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/OSPanel1/domains/test-local.ru/dup-installer"
+	FILE: "C:/OSPanel1/domains/test-local.ru/20221103_test_[HASH]_20221103153335_installer-backup.php"
+	FILE: "C:/OSPanel1/domains/test-local.ru/20221103_test_[HASH]_20221103153335_archive.zip"
+	FILE: "C:/OSPanel1/domains/test-local.ru/installer.php"
+	FILE: "C:/OSPanel1/domains/test-local.ru/dup-installer-bootlog__913a3c4-03153335.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20221103_test_[HASH]_20221103153335_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0042 sec. - Files processed: 2,869 of 4,188
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2869
+--------------------------------------
+PATHS MAPPING : "C:/OSPanel1/domains/test-local.ru"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 4787
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 11:05:46 - RUNTIME: 8.2719 sec. - Files processed: 4,188 of 4,188
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.13823]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 11:05:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     211] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:     431] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:      77] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_term_relationships"___________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.30 -- Build Server: 8.0.29
+FILE SIZE:	dup-database__[HASH].sql (1.65MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_commentmeta
+DROP TABLE wp_comments
+DROP TABLE wp_duplicator_packages
+DROP TABLE wp_links
+DROP TABLE wp_options
+DROP TABLE wp_postmeta
+DROP TABLE wp_posts
+DROP TABLE wp_term_relationships
+DROP TABLE wp_term_taxonomy
+DROP TABLE wp_termmeta
+DROP TABLE wp_terms
+DROP TABLE wp_usermeta
+DROP TABLE wp_users
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   211]
+TABLE "wp_postmeta"_____________________________________[ROWS:   431]
+TABLE "wp_posts"________________________________________[ROWS:    77]
+TABLE "wp_term_relationships"___________________________[ROWS:    32]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     4]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     4]
+TABLE "wp_usermeta"_____________________________________[ROWS:    26]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 0.6446 sec.
+STEP-2 COMPLETE @ 11:05:59 - RUNTIME: 0.6448 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.10960]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+PARAM [wp_mail] ERROR: Invalid value "test.ru"
+-----------------------
+[ERROR] Parameter validation failed
+	LONG MSG: Email Email "test.ru"  isn't valid
+
+
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+PARAM [wp_mail] ERROR: Invalid value "test.ru"
+-----------------------
+[ERROR] Parameter validation failed
+	LONG MSG: Email Email "test.ru"  isn't valid
+
+
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/task_wptest__usr/data/www/task.wptest.top REPLACE: C:/OSPanel1/domains/test-local.ru/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/task_wptest__usr/data/www/task.wptest.top REPLACE: C:/OSPanel1/domains/test-local.ru [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://task.wptest.top REPLACE: http://test-local.ru/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://task.wptest.top REPLACE: http://test-local.ru [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 11:06:47
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    49]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   162][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   431][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    32][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/task_wptest__usr/data/www/task.wptest.top" => "C:/OSPanel1/domains/test-local.ru"
+	SEARCH[urlnd]  2:"https://task.wptest.top" =========================> "http://test-local.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:705 	|	 Cells:4297 
+UPDATED:	Tables:3 	|	 Rows:80 	|	 Cells:80 
+ERRORS:		0 
+RUNTIME:	0.203700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/OSPanel1/domains/test-local.ru/wp-config.php
+New htaccess file created:C:/OSPanel1/domains/test-local.ru/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://test-local.ru/"
+	UPDATE DB_NAME ""test""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'morf' was created successfully allong with MU usermeta.
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:06:47 - RUNTIME: 0.6069 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/OSPanel1/domains/test-local.ru/index.php
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[63]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[73]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[89]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[102]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[111]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[40]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[51]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[68]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[91]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[922]
+	FUNCTION: spawn_cron                    FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\cron.php[994]
+	FUNCTION: _wp_cron                      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\OSPanel1\domains\test-local.ru\wp-settings.php[639]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-config.php[109]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\OSPanel1\domains\test-local.ru\index.php[17]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/OSPanel1/domains/test-local.ru//wp-login.php
+E_DEPRECATED preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\formatting.php[5395]
+	--- TRACE ---
+	FUNCTION: preg_replace                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\formatting.php[5395]
+	FUNCTION: wp_strip_all_tags             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\formatting.php[2125]
+	FUNCTION: sanitize_user                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\pluggable.php[597]
+	FUNCTION: wp_authenticate               FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\user.php[95]
+	FUNCTION: wp_signon                     FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1231]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED trim(): Passing null to parameter #1 ($string) of type string is deprecated
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\pluggable.php[598]
+	--- TRACE ---
+	FUNCTION: trim                          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\pluggable.php[598]
+	FUNCTION: wp_authenticate               FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\user.php[95]
+	FUNCTION: wp_signon                     FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1231]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[63]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[73]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[89]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[102]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Cookie\Jar.php[111]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Transport\cURL.php[345]
+	--- TRACE ---
+	FUNCTION: http_build_query              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Transport\cURL.php[345]
+	CLASS___: Requests_Transport_cURL->setup_handleFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Transport\cURL.php[135]
+	CLASS___: Requests_Transport_cURL->requestFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[381]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[40]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[51]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[68]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[91]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[395]
+	CLASS___: WP_Http->request              FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\class-wp-http.php[615]
+	CLASS___: WP_Http->post                 FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[59]
+	FUNCTION: translations_api              FILE: C:\OSPanel1\domains\test-local.ru\wp-admin\includes\translation-install.php[133]
+	FUNCTION: wp_get_available_translations FILE: C:\OSPanel1\domains\test-local.ru\wp-includes\l10n.php[1535]
+	FUNCTION: wp_dropdown_languages         FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[357]
+	FUNCTION: login_footer                  FILE: C:\OSPanel1\domains\test-local.ru\wp-login.php[1555]
+	FUNCTION: require_once                  FILE: C:\OSPanel1\domains\test-local.ru\wp-content\wp_test_script_913a3c4-03153335.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[C:\OSPanel1\domains\test-local.ru\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.10834]  MESSAGE:END RENDER PAGE
