@@ -11,13 +11,12 @@ get_header();
                     <?php get_template_part('template-parts/content'); ?>
                 <?php endwhile; endif; ?>
                 <?php
-
                 the_posts_pagination(
-                        [
+                        array(
                                 'prev_next' => true,
                                 'prev_text' => 'Назад',
                                 'next_text' => 'Вперед'
-                        ]
+                        )
                 );
                 wp_reset_postdata();
                 ?>
@@ -27,8 +26,5 @@ get_header();
     </div>
 </main>
 
-
-
 <?php
 get_footer();
-
